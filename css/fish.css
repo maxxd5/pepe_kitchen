@@ -1,0 +1,79 @@
+body{
+	background: none;
+}
+
+h5{
+	text-align:center;
+}
+
+.row{
+	height: 250px;
+}
+.description{
+	height: 200px;
+	width: 200px;
+	margin: auto;
+/*	background: url('../images/rezat-rybu-vo-sne.jpg') 100% 100%/cover no-repeat;*/
+	transition: all 0.4s;
+}
+.fish1{
+	
+background: url('../images/fish1.jpg') 100% 100%/cover no-repeat ;
+}
+.fish2{
+	
+background: url('../images/fish2.jpg') 100% 100%/cover no-repeat ;
+}
+.fish3{
+	
+background: url('../images/fish3.jpg') 100% 100%/cover no-repeat ;
+}
+.fish4{
+	
+background: url('../images/fish4.jpg') 100% 100%/cover no-repeat ;
+}
+.fish5{
+	
+background: url('../images/fish5.jpg') 100% 100%/cover no-repeat ;
+}
+.fish6{
+	
+background: url('../images/fish6.jpg') 100% 100%/cover no-repeat ;
+}
+.fish7{
+	
+background: url('../images/fish7.jpg') 100% 100%/cover no-repeat ;
+}
+.fish8{
+	
+background: url('../images/fish8.jpg') 100% 100%/cover no-repeat ;
+}
+.fish9{
+	
+background: url('../images/fish9.jpg') 100% 100%/cover no-repeat ;
+}
+
+.meal{
+	background-color: aqua;
+	width: 230px;
+}
+p{
+	opacity:0;
+	height: 100%;
+	width: 100%;
+	color: white;
+	font-size: 22px;
+	transition: all 0.4s;
+	text-align:center;
+	z-index:2;
+}
+.description:hover p{
+	opacity:1;
+}
+
+iframe{
+	display: none;
+}
+iframe.active{
+	display: block;
+}

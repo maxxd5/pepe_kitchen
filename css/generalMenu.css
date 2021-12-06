@@ -1,0 +1,73 @@
+
+body{
+	background: none;
+}
+
+h5{
+	text-align:center;
+}
+
+.row{
+	height: 250px;
+}
+.description{
+	height: 200px;
+	width: 200px;
+	margin: auto;
+/*	background: url('../images/eda-raznoe-kurica-yajca-griby-pomidory-m-879383.jpg')100% 100%/cover no-repeat;*/
+	transition: all 0.4s;
+}
+.bar1{
+	
+background: url('../images/bar1.jpg') 100% 100%/cover no-repeat ;
+}
+.bar2{
+	
+background: url('../images/bar2.jpg') 100% 100%/cover no-repeat ;
+}
+.bar3{
+	
+background: url('../images/bar3.jpg') 100% 100%/cover no-repeat ;
+}
+.bar4{
+	
+background: url('../images/bar4.jpg') 100% 100%/cover no-repeat ;
+}
+.bar5{
+	
+background: url('../images/bar5.jpg') 100% 100%/cover no-repeat ;
+}
+.bar6{
+	
+background: url('../images/bar6.jpg') 100% 100%/cover no-repeat ;
+}
+.bar7{
+	
+background: url('../images/bar7.jpg') 100% 100%/cover no-repeat ;
+}
+.bar8{
+	
+background: url('../images/bar8.jpg') 100% 100%/cover no-repeat ;
+}
+.bar9{
+	
+background: url('../images/bar9.jpg') 100% 100%/cover no-repeat ;
+}
+.meal{
+	background-color: aqua;
+	width: 230px;
+	color: black;
+}
+p{
+	opacity:0;
+	height: 100%;
+	width: 100%;
+	color: white;
+	font-size: 22px;
+	transition: all 0.4s;
+	text-align:center;
+	z-index:2;
+}
+.description:hover p{
+	opacity:1;
+}

@@ -1,0 +1,78 @@
+body{
+	background: none;
+}
+
+h5{
+	text-align:center;
+}
+
+.row{
+	height: 250px;
+}
+.description{
+	height: 200px;
+	width: 200px;
+	margin: auto;
+/*	background: url('../images/vegetables-cabbage-tomatoes-cucumbers-mushrooms-540937-1920x1080-977634-0Nl3C3dW.jpg') 100% 100%/cover no-repeat;*/
+	transition: all 0.4s;
+}
+.meal{
+	background-color: aqua;
+	width: 230px;
+}
+.veg1{
+	
+background: url('../images/veg1.jpg') 100% 100%/cover no-repeat ;
+}
+.veg2{
+	
+background: url('../images/veg2.jpg') 100% 100%/cover no-repeat ;
+}
+.veg3{
+	
+background: url('../images/veg3.jpg') 100% 100%/cover no-repeat ;
+}
+.veg4{
+	
+background: url('../images/veg4.jpg') 100% 100%/cover no-repeat ;
+}
+.veg5{
+	
+background: url('../images/veg5.jpg') 100% 100%/cover no-repeat ;
+}
+.veg6{
+	
+background: url('../images/veg6.jpg') 100% 100%/cover no-repeat ;
+}
+.veg7{
+	
+background: url('../images/veg7.jpg') 100% 100%/cover no-repeat ;
+}
+.veg8{
+	
+background: url('../images/veg8.jpg') 100% 100%/cover no-repeat ;
+}
+.veg9{
+	
+background: url('../images/veg9.jpg') 100% 100%/cover no-repeat ;
+}
+p{
+	opacity:0;
+	height: 100%;
+	width: 100%;
+	color: white;
+	font-size: 22px;
+	transition: all 0.4s;
+	text-align:center;
+	z-index:2;
+}
+.description:hover p{
+	opacity:1;
+}
+
+iframe{
+	display: none;
+}
+iframe.active{
+	display: block;
+}

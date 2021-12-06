@@ -1,0 +1,79 @@
+body{
+	background: none;
+}
+
+h5{
+	text-align:center;
+}
+
+.row{
+	height: 250px;
+}
+.description{
+	height: 200px;
+	width: 200px;
+	margin: auto;
+/*	background: url('../images/9745FA79-5DB5-4870-9E03-A1FAEAECBC49.jpeg') 100% 100%/cover no-repeat;*/
+	transition: all 0.4s;
+}
+.child1{
+	
+background: url('../images/child1.jpg') 100% 100%/cover no-repeat ;
+}
+.child2{
+	
+background: url('../images/child2.jpg') 100% 100%/cover no-repeat ;
+}
+.child3{
+	
+background: url('../images/child3.jpg') 100% 100%/cover no-repeat ;
+}
+.child4{
+	
+background: url('../images/child4.jpg') 100% 100%/cover no-repeat ;
+}
+.child5{
+	
+background: url('../images/child5.jpg') 100% 100%/cover no-repeat ;
+}
+.child6{
+	
+background: url('../images/child6.jpg') 100% 100%/cover no-repeat ;
+}
+.child7{
+	
+background: url('../images/child7.jpg') 100% 100%/cover no-repeat ;
+}
+.child8{
+	
+background: url('../images/child8.jpg') 100% 100%/cover no-repeat ;
+}
+.child9{
+	
+background: url('../images/child9.jpg') 100% 100%/cover no-repeat ;
+}
+.meal{
+	background-color: aqua;
+	width: 230px;
+}
+p{
+	opacity:0;
+	height: 100%;
+	width: 100%;
+	color: white;
+	font-size: 22px;
+	transition: all 0.4s;
+	text-align:center;
+	z-index:2;
+}
+.description:hover p{
+	opacity:1;
+}
+
+iframe{
+	display: none;
+}
+/*
+iframe.active{
+	display: block;
+}*/

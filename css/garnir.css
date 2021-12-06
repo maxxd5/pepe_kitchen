@@ -1,0 +1,78 @@
+body{
+	background: none;
+}
+
+h5{
+	text-align:center;
+}
+
+.row{
+	height: 250px;
+}
+.description{
+	height: 200px;
+	width: 200px;
+	margin: auto;
+/*	background: url('../images/1559571226_zharenaya_kartoshka.jpg') 100% 100%/cover no-repeat;*/
+	transition: all 0.4s;
+}
+.garn1{
+	
+background: url('../images/garn1.jpg') 100% 100%/cover no-repeat ;
+}
+.garn2{
+	
+background: url('../images/garn2.jpg') 100% 100%/cover no-repeat ;
+}
+.garn3{
+	
+background: url('../images/garn3.jpg') 100% 100%/cover no-repeat ;
+}
+.garn4{
+	
+background: url('../images/garn4.jpg') 100% 100%/cover no-repeat ;
+}
+.garn5{
+	
+background: url('../images/garn5.jpg') 100% 100%/cover no-repeat ;
+}
+.garn6{
+	
+background: url('../images/garn6.jpg') 100% 100%/cover no-repeat ;
+}
+.garn7{
+	
+background: url('../images/garn7.jpg') 100% 100%/cover no-repeat ;
+}
+.garn8{
+	
+background: url('../images/garn8.jpg') 100% 100%/cover no-repeat ;
+}
+.garn9{
+	
+background: url('../images/garn9.jpg') 100% 100%/cover no-repeat ;
+}
+.meal{
+	background-color: aqua;
+	width: 230px;
+}
+p{
+	opacity:0;
+	height: 100%;
+	width: 100%;
+	color: white;
+	font-size: 22px;
+	transition: all 0.4s;
+	text-align:center;
+	z-index:2;
+}
+.description:hover p{
+	opacity:1;
+}
+
+iframe{
+	display: none;
+}
+iframe.active{
+	display: block;
+}

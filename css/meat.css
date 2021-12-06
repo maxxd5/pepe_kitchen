@@ -1,0 +1,72 @@
+
+body{
+	background: none;
+}
+
+h5{
+	text-align:center;
+}
+
+.row{
+	height: 250px;
+}
+.description{
+	height: 200px;
+	width: 200px;
+	margin: auto;
+/*	background: url('../images/meat.webp');*/
+	transition: all 0.4s;
+}
+.meat1{
+	
+background: url('../images/meat1.jpg') 100% 100%/cover no-repeat ;
+}
+.meat2{
+	
+background: url('../images/meat2.jpg')100% 100%/cover no-repeat ;
+}
+.meat3{
+	
+background: url('../images/meat3.jpg')100% 100%/cover no-repeat ;
+}
+.meat4{
+	
+background: url('../images/meat4.jpg')100% 100%/cover no-repeat ;
+}
+.meat5{
+	
+background: url('../images/meat5.jpg')100% 100%/cover no-repeat ;
+}
+.meat6{
+	
+background: url('../images/meat6.jpg')100% 100%/cover no-repeat ;
+}
+.meat7{
+	
+background: url('../images/meat7.jpg')100% 100%/cover no-repeat ;
+}
+.meat8{
+	
+background: url('../images/meat8.jpg')100% 100%/cover no-repeat ;
+}
+.meat9{
+	
+background: url('../images/meat9.jpg')100% 100%/cover no-repeat ;
+}
+.meal{
+	background-color: aqua;
+	width: 230px;
+}
+p{
+	opacity:0;
+	height: 100%;
+	width: 100%;
+	color: white;
+	font-size: 22px;
+	transition: all 0.4s;
+	text-align:center;
+	z-index:2;
+}
+.description:hover p{
+	opacity:1;
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>menu</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/menu.css">
+	<link rel="stylesheet" href="css/icon-fonts.css">
+</head>
+
+<body>
+	<header>
+		<nav>
+			<div class="container h-100 w-100">
+				<div class="row h-100 w-100 ">
+					<div class="logo col-4 d-flex h-100">
+						<div class="photo">
+							<a href="index.html"><img src="images/logo1.png" alt="logo" ></a>
+						</div>
+						<div class="name mx-2">		
+						</div>
+					</div>
+					<div class="hub col-6 h-100 offset-2">
+						<!-- Пункты меню -->
+						<ul class="d-flex h-100 justify-content-evenly">
+							<li class="mx-2 menuLi "><a href="">Наше меню</a></li>
+							<li class="mx-2 menuLi "><a href="about.html">О нас</a></li>
+							<li class="mx-2 menuLi "><a class="boot">Заказать столик</a></li>
+							<li class="noActive">
+								<div class="navButton h-100 d-flex justify-content-end align-items-center">
+									<div class="navIcon">
+										<i class="icon-menu"></i>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="navTitle">
+					<ul>
+						<li><a href="menu.html">Наше меню</a></li>
+						<li><a href="about.html">О нас</a></li>
+						<li><a class="boot">Заказать столик</a></li>
+					</ul>
+					<div class="slideShow">
+						<img src="images/chef1.jpg">
+					</div>
+					<div class="navContacts">
+						<p>Наш ресторан сертифицирован на мировом уровне, и имеет 4 звезды Мишлен.</p>
+						<p>ул. Адмирала Макарова 45 </p>
+
+						<p>Москва, MOW 125212 </p>
+
+						<p>+7 (15 012-32-04 </p>
+
+						<p>pepekitchen@gmail.com </p>
+
+						<p>Рады Вас видеть: </p>
+						Понедельник - Воскресенье:
+
+						01:00 - 0:00
+					</div>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<section class="main ">
+		<div class="menuTitle">
+
+			<div class="container">
+				<div class="row">
+					<h1 class="col-3">
+						<a href="generalMenu.html" target="menuFrame">Бар</a>
+					</h1>
+					<div class="header col-9 ">
+						<ul>
+							<li><a href="meat.html" target="menuFrame">Мясо</a></li>
+							<li><a href="fish.html" target="menuFrame">Рыба</a></li>
+							<li><a href="vegetable.html" target="menuFrame">Вегетарианское</a></li>
+							<li><a href="garnir.html" target="menuFrame">Гарниры</a></li>
+							<li><a href="children.html" target="menuFrame">Детское меню</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="row">
+					<iframe src="generalMenu.html" frameborder="0" height="792" name="menuFrame" id="menuFrame">
+					</iframe>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Модальное окно с формой -->
+	<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Заказать столик</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<form action="#">
+						<div class="row flex-column">
+							<div class="col-4 w-100 mb-2">
+								<input type="text" class="modalInput" name="name" placeholder="Имя" required>
+							</div>
+							<div class="col-4 w-100 mb-2">
+								<input type="tel" class="modalInput" id="phone" name="phone" placeholder="Телефон" required>
+							</div>
+							<div class="col-4 d-flex mb-4 w-100 modalText">
+								<textarea name="text2" id="text2" cols="48" rows="5" placeholder="Сообщение"></textarea>
+							</div>
+						</div>
+						<div class="modal-footer">
+							<input type="submit" class="btn btn-primary" value="Отправить заявку">
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<footer class="">
+		<p>Наш адрес: ул. Адмирала Макарова 45, Наш телефон: +7 (915) 012-32-04 </p>
+		2021&copy; Student MIREA ALL RIGHTS RESERVED
+	</footer>
+	<script src="js/jquery-3.6.0.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/iconAnimation.js"></script>
+	<script src="js/myScript.js"></script>
+
+</body>
+
+</html>
